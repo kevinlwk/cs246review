@@ -6,6 +6,9 @@ The purpose is to decrease coupling and allows abstraction away from the observe
 
 This is a "1 to many" dependency.
 
+!includeurl https://raw.githubusercontent.com/linux-china/plantuml-gist/master/src/main/uml/plantuml_gist.puml
+![PlantUML model](http://www.plantuml.com/plantuml/png/NP0npi8m38NtdCBZ_m-z068e4X8Z0oTmYu6Yj46sMwc2tXrZce8OyxsyxqKfHP6rRsFGT2Qz4CCz060bobWhr155uD1NLwhL8u1K2V50B2iOZ2PssYLjJkCcnhz_Eq_EtkqTjkHLvrFudlePshlQasmqdLMoQzl8BUBuqRt235DH-5YOt-iWAyFYNZyCpvtbgaClbzGTxKEU)
+
 @startuml
 together {
   abstract class Subject {
